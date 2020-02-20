@@ -5,7 +5,7 @@
             $dun = date("l");
             if($mesec == 13){
                 $mesec = 1;
-                $godina += 1;
+                $godina += 1; 
             }
 $podaci = [$godina, $mesec, $dan, $dun];
 
