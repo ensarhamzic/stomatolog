@@ -1,0 +1,4 @@
+AuthUserFile C:/wamp/www/stomatolog/admin/.htpasswd
+AuthType Basic
+AuthName "Username and password"
+Require valid-user

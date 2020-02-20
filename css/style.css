@@ -1,0 +1,2350 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    margin: 0;
+    padding: 0;
+}
+#logo{
+    width: 70px;
+}
+
+#text{
+    width: 120px;
+}
+#wrapper {
+    overflow: hidden;
+    position: relative;
+}
+
+#nav {
+    overflow: hidden;
+    background: #107F93;
+    position: relative;
+}
+
+#nav #text {
+    margin-bottom: 40px;
+}
+
+#nav #logo {
+    padding: 20px 0;
+    margin-left: 40px;
+}
+#pregledsm {
+    display: none;
+}
+.left {
+    float: left;
+    overflow: hidden;
+}
+
+.right {
+    overflow: hidden;
+}
+
+.right ul li {
+    float: left;
+    margin-right: 5px;
+}
+
+.right ul {
+    float: right;
+    list-style: none;
+    position: absolute;
+    right: 3%;
+    top: 60%;
+    margin: 0;
+    padding: 0;
+}
+
+.right a {
+    float: right;
+    color: white;
+
+}
+
+#broj {
+    float: right;
+    margin-right: 170px;
+    margin-top: 20px;
+    color: white;
+}
+
+.right a:link {
+    display: block;
+    font-size: 20px;
+    padding: 5px 15px;
+    border-radius: 200px;
+    text-decoration: none;
+}
+
+.right a:hover {
+    background-color: #9FCB3F;
+    transition: 0.5s;
+}
+
+#cover {
+    margin: 0;
+    padding: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+
+#main {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.desno {
+    float: right;
+}
+
+.levo {
+    float: left;
+}
+
+.dot {
+    height: 70px;
+    width: 70px;
+    border: 5px solid #107F93;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+}
+#doktorsm {
+    display: none;
+}
+.fa-map-marker-alt {
+    position: absolute;
+    left: 34%;
+    top: 30%;
+    color: #107F93;
+}
+
+#lokacija {
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #107F93;
+}
+
+.fa-tooth {
+    position: absolute;
+    color: #107F93;
+    left: 30%;
+    top: 28%;
+}
+
+.fa-star {
+    position: absolute;
+    color: #107F93;
+    left: 25%;
+    top: 25%;
+}
+
+#zubar {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #107F93;
+}
+
+.drugo {
+    margin-left: 50px;
+}
+#radsm {
+    display: none;
+}
+#oprema {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #107F93;
+}
+
+
+#podaci {
+    padding-bottom: 40px;
+    overflow: hidden;
+    border-bottom: 2px solid #107F93;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+}
+
+#pregled {
+    width: 600px;
+    margin-top: 50px;
+}
+
+#pregleds {
+    margin-right: 50px;
+    margin-top: 60px;
+}
+
+.prvi {
+    margin-left: 65px;
+}
+
+#pcelica {
+    margin-left: 45px;
+    justify-content: center;
+    margin-top: 11px;
+    color: rgb(65, 65, 65);
+}
+
+#radt {
+    width: 600px;
+    margin-right: 50px;
+    color: rgb(65, 65, 65);
+    margin-top: 10px;
+}
+
+#rad {
+    margin-top: 50px;
+}
+
+#rads {
+    margin-left: 45px;
+}
+
+#kaver {
+    background: url("../images/ord2.jpg") center center / cover;
+    height: 530px;
+}
+
+.active a {
+    background-color: white;
+    color: #107F93;
+}
+
+#naziv {
+    margin: 15px auto;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+    color: #107F93;
+}
+
+.zubi {
+    width: 100px;
+    margin-left: 45px;
+    color: rgb(65, 65, 65);
+    margin-top: 10px;
+}
+
+#zubid {
+    margin-top: 59px;
+}
+
+#zubis {
+    margin-top: 65px;
+    margin-right: 50px;
+}
+
+.n1 {
+    text-align: center;
+    color: #107F93;
+    margin-bottom: 0px;
+}
+
+#footer {
+    overflow: hidden;
+    background: #107F93;
+    clear: both;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+    color: white;
+}
+
+.jedan,
+.dva,
+.tri {
+    list-style: none;
+    float: left;
+}
+
+.jedan li,
+.dva li,
+.tri li {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#zubi {
+    width: 600px;
+    margin-left: 45px;
+    color: rgb(65, 65, 65);
+    margin-top: 10px;
+}
+
+#doktor {
+    margin-top: 50px;
+}
+
+#doktors {
+    margin-left: 150px;
+}
+
+#zubar1 {
+    width: 400px;
+    margin-right: 200px;
+    color: rgb(65, 65, 65);
+    margin-top: 10px;
+}
+
+.mapouter {
+    margin-top: 50px;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 5px solid #107F93;
+}
+
+#kako {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+    color: #107F93;
+}
+
+.kontaktirati {
+    overflow: hidden;
+    margin-bottom: 50px;
+
+}
+
+.kontakt {
+    margin-top: 50px;
+    margin-left: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.fa-phone,
+.fa-mobile-alt,
+.fa-map-marked-alt,
+.fa-facebook,
+.fa-clock,
+.fa-instagram,
+.fa-envelope {
+    color: #107F93;
+    margin-top: 20px;
+}
+
+.drmreze {
+    margin-right: 50px;
+    color: rgb(65, 65, 65);
+    margin-top: 15px;
+}
+
+.kontakt h2 {
+    font-size: 29px;
+}
+
+#fiksni {
+    margin-top: 30px;
+}
+
+#tel1 {
+    margin-top: 35px;
+}
+
+#radno {
+    margin-top: 20px;
+}
+
+#lok {
+    margin-top: 8px;
+}
+
+#mail {
+    margin-top: 9px;
+}
+
+#bas {
+    margin-left: 10px !important;
+    color: rgb(65, 65, 65);
+}
+
+.fa-mobile-alt {
+    margin-left: 11px;
+}
+
+.fa-envelope {
+    margin-left: 5px;
+}
+
+#drt {
+    margin-right: 45px;
+}
+
+.fa-facebook,
+.fa-instagram {
+    margin-left: 30px;
+}
+
+#m,
+#n {
+    color: rgb(65, 65, 65);
+    font-size: 25px;
+    vertical-align: 5px;
+}
+
+#n {
+    margin-left: 2px;
+}
+
+.drmreze a:hover #m,
+.drmreze a:hover #n {
+    color: #107F93;
+}
+
+
+#text1 {
+    width: 150px;
+    margin-bottom: 20px;
+}
+#logo1{
+    width: 70px;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.ulk ul {
+    top: 30% !important;
+}
+
+#kalendar {
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+    width: 640px;
+    border: 5px solid #107F93;
+    border-radius: 20px;
+    padding-bottom: 15px;
+    margin-top: 50px;
+    float: left;
+}
+
+.sir{
+    width: 65px;
+    float: left;
+}
+#radsm6 {
+    display: none;
+}
+.tacka {
+    height: 70px;
+    width: 70px;
+    margin-left: 15px;
+    margin-top: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    border: 3px solid white;
+}
+
+.levaS{
+    margin-right:20px;
+}
+
+
+.sivi{
+    background-color: #bbb;
+    border: 3px solid #bbb;
+    
+}
+
+.sivibroj {
+    margin-top: 21px;
+    font-size: 25px;
+}
+.dan{
+    float: left;
+    font-size: 25px;
+    margin-left: 21px;
+    text-align: center;
+    width: 70px;
+    margin-bottom: 0;
+}
+
+#traka{
+    background-color: #107F93;
+    overflow: hidden;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+}
+
+.sivi:hover{
+    border: 3px solid black;
+    transition: 0.5s;
+}
+
+#mjesec{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 15px;
+    border-bottom: 3px solid white;
+    margin-left: 33px;
+    width: 570px;
+    font-weight: bold;
+}
+
+.fa-arrow-circle-right{
+    margin-left: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+#izbor {
+    width: 500px;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+    border: 5px solid #107F93;
+    border-radius: 20px;
+    margin-top: 50px;
+    float: left;
+    height: 423px;
+    margin-left: 40px;
+}
+
+
+.izbord{
+    border: 1px solid #107F93;
+    font-size: 40px;
+    font-weight: bold;
+    width: 80x;
+    float: left;
+    margin-left: 24px;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px;
+    border-radius: 20px;
+    margin-top: 13px;
+}
+
+#izborv {
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+    width: 500px;
+    border: 5px solid #107F93;
+    border-radius: 20px;
+    margin-top: 50px;
+    float: left;
+    height: 243px;
+    margin-left: 40px;
+}
+
+.izborvd{
+    border: 1px solid #107F93;
+    font-size: 40px;
+    font-weight: bold;
+    width: 80x;
+    float: left;
+    margin-left: 24px;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px;
+    border-radius: 20px;
+    margin-top: 13px;
+}
+
+.datum {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #107F93;
+    overflow: hidden;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+}
+
+#naslov1, #naslov2{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+#naslov1d, #naslov2d{
+    background-color: #107F93;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-top: 10px;
+    width: 100%;
+    padding-bottom: 10px;
+}
+.footer {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+.form-style-9{
+    width: 440px;
+    float: left;
+    margin-top: 20px;
+	background: #FAFAFA;
+	padding: 30px 30px 0 30px;
+	margin-left: 40px;
+	box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+	border-radius: 20px;
+	border: 5px solid #107F93;
+}
+.form-style-9 ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+.form-style-9 ul li{
+	display: block;
+	margin-bottom: 10px;
+	min-height: 35px;
+}
+.form-style-9 ul li  .field-style{
+	box-sizing: border-box; 
+	padding: 8px;
+	outline: none;
+    border: 1px solid #107F93;
+    border-radius: 10px;
+
+}.form-style-9 ul li  .field-style:focus{
+	box-shadow: 0 0 5px #107F93;
+    border:1px solid #107F93;
+    border-radius: 10px;
+}
+.form-style-9 ul li .field-split{
+	width: 49%;
+}
+.form-style-9 ul li .field-full{
+	width: 100%;
+}
+.form-style-9 ul li input.align-left{
+	float:left;
+}
+.form-style-9 ul li input.align-right{
+	float:right;
+}
+.form-style-9 ul li input[type="button"], 
+.form-style-9 ul li input[type="submit"] {
+    border-radius: 10px;
+	box-shadow: inset 0px 1px 0px 0px #107F93;
+	background-color: #107F93;
+	border: 1px solid #107F93;
+	display: inline-block;
+    cursor: pointer;
+	color: #FFFFFF;
+	padding: 8px 18px;
+	text-decoration: none;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 160px;
+}
+.form-style-9 ul li input[type="button"]:hover, 
+.form-style-9 ul li input[type="submit"]:hover {
+    background-color: #107F93;
+    border: 1px solid #107F93;
+}
+
+#greska {
+    text-align: center;
+}
+
+.zelen {
+    background: #107F93;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    overflow: hidden;
+    
+  }
+  
+  table, th, td {
+    
+    font-family: 'Roboto', sans-serif;
+    
+  }
+
+  th,td{
+      padding: 7px;
+      font-weight: bold;
+  }
+th{
+    background: #107F93;
+    color: white;
+    font-size: 25px;
+    border: 5px solid black;
+    
+}
+
+td{
+    font-size: 20px;
+    border: 5px solid #107F93;
+}
+
+#tabela{
+    margin: 50px auto;
+}
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 500px;
+    width: 600px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 500px;
+    width: 600px;
+}
+iframe{
+    width: 600px;
+    height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#respmenu {
+	display:none;
+}
+
+#navulm {
+    display: none;
+}
+
+
+
+
+
+
+@media screen and (min-width:1024px) and (max-width:1230px) {
+	#main {
+        width: 1000px;
+    }
+    #kaver {
+        height: 400px;
+    }
+    #lokacija, #zubar, #oprema {
+        width: 180px;
+        font-size: 13px;
+    }
+    .dot {
+        height: 50px;
+        width: 50px;
+    }
+    #lokacija {
+        margin-left: 20px;
+    }
+    #oprema {
+        margin-top: 5px;
+    }
+    #zubar {
+        margin-top: 5px;
+    }
+    .prvi {
+        margin-left: 40px;
+    }
+    .fa-map-marker-alt {
+        left: 28%;
+        top: 25%;
+    }
+    .fa-tooth {
+        left: 23%;
+        top: 24%;
+    }
+    .fa-star {
+        left: 18%;
+        top: 18%;
+    }
+    #radt, #zubi{
+        width: 430px;
+    }
+    #pregled{
+        width: 460px;
+    }
+    .zubi{
+        width: 90px;
+        margin-left: 15px;
+    }
+    #pregleds {
+        margin-top: 100px;
+    }
+    #rads {
+        margin-top: 50px;
+    }
+    #rad {
+        margin-top: 30px;
+    }
+    #doktors {
+        margin-left: 90px;
+    }
+    #doktor {
+        margin-top: 40px;
+    }
+    #zubar1 {
+        width: 430px;
+        margin-right: 100px;
+    }
+    .mapouter {
+        height: 400px;
+        width: 450px;
+        margin-top: 30px;
+    }
+    
+    .gmap_canvas {
+        height: 400px;
+        width: 450px;
+    }
+    iframe{
+        width: 450px;
+        height: 400px;
+    }
+    .kontakt {
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .kontakt h2 {
+        font-size: 25px;
+    }
+    .drmreze {
+        margin-right: 10px;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    #m,
+    #n {
+    font-size: 20px;
+    vertical-align: 5px;
+    }
+    .drf {
+        float: left;
+    }
+
+    .fa-facebook,
+    .fa-instagram {
+        margin-left: 20px;
+
+    }
+    .fa-instagram{
+        margin-top: 0;
+    }
+    #fiksni {
+        margin-top: 35px;
+    }
+    
+    #tel1 {
+        margin-top: 35px;
+    }
+    
+    #radno {
+        margin-top: 23px;
+    }
+    
+    #lok {
+        margin-top: 15px;
+    }
+    
+    #mail {
+        margin-top: 18px;
+    }
+    #kalendar{
+        width: 550px;
+        float: left;
+    }
+    .dan{
+        margin-left: 8px;
+    }  
+    .tacka{
+        height: 57px;
+        width: 57px;
+    }
+    .sivibroj{
+        margin-top: 15px;
+    }
+    
+    #mjesec{
+        width: 490px;
+    }
+    #izbor, #izborv{
+        width: 410px;
+        float: left;
+        margin-left: 20px;
+    }
+    .izbord, .izborvd{
+        width: 70px;
+        margin-left: 25px;
+        font-size: 30px;
+    }
+    #izbor{
+        height: 380px;
+    }
+    .form-style-9{
+        width: 350px;
+        margin-left: 20px;
+        float: left;
+    }
+    .form-style-9 ul li input[type="button"], 
+    .form-style-9 ul li input[type="submit"] {
+        margin-left: 120px;
+    }
+
+}
+
+
+
+@media screen and (min-width:850px) and (max-width:1023px) {
+    #main {
+        width: 830px;
+    }
+    .prvi {
+        margin-left: 0;
+    }
+    #podaci {
+        margin: 0;
+        padding: 0;
+    }
+    #kaver {
+        background: url("../images/ord.jpg") center center / cover;
+        height: 300px;
+    }
+    #first, #second, #third{
+        margin: 20px auto;
+    }
+    #pregleds {
+        display: none;
+    }
+    #pcelica {
+        font-size: 22px;
+    }
+    #pregledsm{
+        display: unset;
+        margin-top: 25px;
+        margin-left: 10px;
+        margin-bottom: 15px;
+    }
+    #pregled {
+        width: 800px;
+        margin-top: 50px;
+    }
+    #mn1 {
+        font-size: 29px;
+    }
+    #radsm{
+        display: unset;
+        margin-right: 10px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        
+
+    }
+    #rads{
+        display: none;
+
+    }
+    #radt{
+        display: none;
+    }
+    #rad {
+        width: 760px;
+        margin-right: 0;
+        margin-left: 40px;
+    }
+    #radnaslov {
+        font-size: 29px;
+        margin-bottom: 10px;
+    }
+    #radtm{
+        display: unset !important;
+        font-size: 22px;
+        width: 800px;
+        margin-top: 50px;
+        color: rgb(65, 65, 65);
+    }
+    #zubis {
+        display: none;
+    }
+    #zubid{
+        float: unset;
+        width: 800px;
+        font-size: 22px;
+    }
+    #zubi{
+        width: 760px;
+    }
+    .jedan, .dva, .tri{
+        width: 180px;
+    }
+    #doktor{
+        width: 800px;
+    }
+    #zubar1{
+        width: 400px;
+        margin-right: 0;
+        font-size: 21px;
+    }
+    #doktors{
+        margin-left: 70px;
+    }
+    #dnm {
+        margin-left: 400px;
+    }
+    #clearm{
+        clear: both;
+    }
+    .mapouter{
+        float: unset !important;
+        margin: 0 auto;
+        height: 400px;
+        width: 750px;
+        margin-top: 30px;
+    }
+
+    
+    .gmap_canvas {
+        height: 400px;
+        width: 750px;
+    }
+    iframe{
+        width: 750px;
+        height: 400px;
+    }
+
+    #ikonicem{
+        margin-left: 100px;
+    }
+    #fiksni, #tel1,#radno,#lok,#mail{
+        border-bottom: 2px solid #107F93;
+        width: 600px;
+    }
+    .drmreze{
+        float: none !important;
+        margin-left: 180px;
+        margin-top: 450px;
+    }
+    #kalendar {
+        float: none;
+        margin: 30px auto;
+    }
+    #izbor, #izborv {
+        float: none;
+        margin: 20px auto;
+    }
+    .form-style-9 {
+        float: none;
+        margin: 20px auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:768px) and (max-width:849px) {
+    #main {
+        width: 740px;
+    }
+    #podaci {
+        margin: 0;
+        padding: 0;
+    }
+    .prvi {
+        margin-left: 0;
+    }
+    #kaver {
+        background: url("../images/ord.jpg") center center / cover;
+        height: 300px;
+    }
+    #first, #second, #third{
+        margin: 20px auto;
+    }
+    #pregleds {
+        display: none;
+    }
+    #pcelica {
+        font-size: 22px;
+        margin-left: 10px;
+    }
+    #pregledsm{
+        display: unset;
+        margin-top: 25px;
+        margin-left: 10px;
+        margin-bottom: 15px;
+    }
+    #pregled {
+        width: 740px;
+        margin-top: 50px;
+    }
+    #mn1 {
+        font-size: 29px;
+    }
+    #radsm{
+        display: unset;
+        margin-right: 10px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        
+
+    }
+    #rads{
+        display: none;
+
+    }
+    #radt{
+        display: none;
+    }
+    #rad {
+        width: 710px;
+        margin-right: 0;
+        margin-left: 20px;
+    }
+    #radnaslov {
+        font-size: 29px;
+        margin-bottom: 10px;
+    }
+    #radtm{
+        display: unset !important;
+        font-size: 22px;
+        width: 710px;
+        margin-top: 50px;
+        color: rgb(65, 65, 65);
+    }
+    #zubis {
+        display: none;
+    }
+    #zubid{
+        float: unset;
+        width: 730px;
+        font-size: 22px;
+    }
+    #zubi{
+        width: 710px;
+    }
+    .jedan, .dva, .tri{
+        width: 140px;
+    }
+    #doktor{
+        width: 740px;
+    }
+    #zubar1{
+        width: 360px;
+        margin-right: 0;
+        font-size: 21px;
+    }
+    #doktors{
+        margin-left: 70px;
+        margin-top: 50px;
+    }
+    #dnm {
+        margin-left: 370px;
+    }
+    #clearm{
+        clear: both;
+    }
+    .mapouter{
+        float: unset !important;
+        margin: 0 auto;
+        height: 400px;
+        width: 700px;
+        margin-top: 30px;
+    }
+
+    
+    .gmap_canvas {
+        height: 400px;
+        width: 700px;
+    }
+    iframe{
+        width: 700px;
+        height: 400px;
+    }
+
+    #ikonicem{
+        margin-left: 70px;
+    }
+    #fiksni, #tel1,#radno,#lok,#mail{
+        border-bottom: 2px solid #107F93;
+        width: 500px;
+    }
+   .fa-clock{
+       margin-top: 30px;
+   }
+    .drmreze{
+        float: none !important;
+        margin-left: 130px;
+        margin-top: 450px;
+    }
+    #kalendar {
+        float: none;
+        margin: 30px auto;
+    }
+    #izbor, #izborv {
+        float: none;
+        margin: 20px auto;
+    }
+    #izbor {
+        height: 428px;
+    }
+    #izborv {
+        height: 248px;
+    }
+    .form-style-9 {
+        float: none;
+        margin: 20px auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:600px) and (max-width:767px) {
+    #respmenu {
+        display: block;
+        margin-top: 30px;
+        margin-right: 20px;
+    }
+    #respmenu:link, #respmenu:visited, #respmenu:hover{
+        background-color: #107F93;
+    }
+    .prvi{
+        margin: 0;
+    }
+    .ulk ul {
+        position: unset;
+        width: 300px;
+        float: none;
+        margin: 0 auto;
+    }
+    
+    #text1 {
+        margin-bottom: 45px;
+    }
+    .right{
+        overflow: visible;
+        text-align: center;
+    }
+    #mobileClear{
+        clear: both;
+    }
+    #main {
+        width: 580px;
+        text-align: center;
+        display: block;
+    }
+    
+    #nav ul li{
+        float: none;
+        padding: 0;
+    }
+    
+    ul li a {
+        width: 170px;
+        margin-bottom: 15px;
+        padding: 0;
+        border: 2px solid white;
+    }
+    
+    #navul{
+        margin: 5px auto;
+    }
+    .drugo {
+        margin-left: 0px;
+    }
+    .prvi {
+        margin-left: 0px;
+    }
+    #podaci {
+        margin: 0 auto;
+    }
+    #first, #second, #third{
+        margin: 20px auto;
+    }
+    #lokacija {
+        margin-left: 5px;
+        font-size: 14px;
+    }
+    #oprema {
+        margin-left: 8px;
+        font-size: 14px;
+    }
+    #zubar {
+        margin-left: 5px;
+        font-size: 14px;
+    }
+    
+    .right ul{
+        display: none;
+        position: unset;
+    }
+    #logo{
+        width: 60px;
+    }
+    #text{
+        width: 70px;
+    }
+    
+    
+    #broj{
+        display: none;
+    }
+    
+    #nav{
+        height: auto;
+        position: unset;
+    }
+   
+    #kaver {
+        background: url("../images/ord.jpg") center center / cover;
+        height: 250px;
+    }
+    
+
+
+
+
+
+
+
+
+    .dot {
+        width: 50px;
+        height: 50px;
+    }
+    #oprema, #zubar,#lokacija {
+        font-size: 12px;
+    }
+    .fa-map-marker-alt {
+        left: 25%;
+        top: 20%;
+    }
+    .fa-tooth {
+        left: 23%;
+        top: 23%;
+    }
+    .fa-star {
+        left: 16%;
+        top: 16%;
+    }
+
+
+
+
+
+
+    #pregleds {
+        margin: 20px auto;
+        float: none;
+    }
+    #pcelica {
+        font-size: 18px;
+        margin-left: 10px;
+        width: 550px;
+    }
+    #pregled {
+        width: 450px;
+        margin-top: 50px;
+    }
+    #mn1 {
+        font-size: 29px;
+        margin-left: 150px;
+    }
+    
+
+
+
+    #rads {
+        display: none;
+    }
+    #radsm6 {
+        display: unset;
+        margin: 20px auto;
+    }
+    #radnaslov {
+        font-size: 29px;
+    }
+    #radt{
+        font-size: 18px;
+        width: 550px;
+        margin-right: 30px;
+    }
+
+
+
+
+    #zubis {
+        display: none;
+    }
+    #zubid {
+        width: 570px;
+        margin-top: 10px;
+        float: none;
+    }
+    #zubi {
+        font-size: 20px;
+        width: 530px;
+        margin: 0px;
+        margin-left: 20px;
+        float: none;
+    }
+    .n1 {
+        font-size: 29px;
+    }
+
+    .zubi{
+        width: 120px;
+        margin: 0;
+        padding: 0;
+        margin-left: 45px;
+    }
+    #u12 {
+        margin-right: 6px;
+    }
+    #u13{
+        margin-right: 15px;
+    }
+    #u22 {
+        margin-right: 22px;
+    }
+    #u23 {
+        margin-left: 15px;
+    }
+    #u31 {
+        margin-left: 5px;
+    }
+
+
+
+
+
+
+    #doktor {
+        width: 540px;
+        margin: 50px auto;
+    }
+    #doktors {
+        width: 170px;
+        margin-left: 5px;
+        margin-top: 53px;
+    }
+    #zubar1{
+        width: 350px;
+        margin-right: 0;
+    }
+
+    #dnm {
+        margin-left: 200px;
+    }
+
+    
+
+
+    .mapouter{
+        float: unset !important;
+        margin: 0 auto;
+        height: 400px;
+        width: 540px;
+        margin-top: 30px;
+    }
+
+    
+    .gmap_canvas {
+        height: 400px;
+        width: 540px;
+    }
+    iframe{
+        width: 540px;
+        height: 400px;
+    }
+    #fiksni, #tel1, #radno ,#mail ,#lok{
+        border-bottom: 2px solid #107F93;
+    }
+
+    .ulk ul {
+        float: right;
+    }
+    #drt {
+        margin-left: 70px;
+    }
+
+
+
+
+    #kalendar {
+        width: 550px;
+        float: none;
+        margin: 30px auto;
+        text-align: left;
+    }
+    #mjesec {
+        width: 480px;
+    }
+    .tacka {
+        width: 57px;
+        height: 57px;
+    }
+    .sivibroj {
+        font-size: 19px;
+        margin-top: 17px;
+    }
+    .dan {
+        margin-left: 8px;
+    }
+    #izbor, #izborv {
+        float: none;
+        margin: 20px auto;
+    }
+    .form-style-9 {
+        float: none;
+        margin: 20px auto;
+        margin-bottom: 0px;
+    }
+    #zakaza {
+        margin-left: 5px
+    }
+    .respmenu {
+        margin-top: 20px !important;
+        margin-right: 20px !important;
+    }
+    #text1 {
+        width: 110px;
+        margin-bottom: 25px;
+    }
+    #logo1{
+        width: 70px;
+        padding: 5px;
+        margin-left: 20px;
+    }
+
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width:440px) and (max-width:599px) {
+    #respmenu {
+        display: block;
+        margin-top: 30px;
+        margin-right: 20px;
+    }
+    #respmenu:link, #respmenu:visited, #respmenu:hover{
+        background-color: #107F93;
+    }
+    .prvi{
+        margin: 0;
+    }
+    .ulk ul {
+        position: unset;
+        width: 300px;
+        float: none;
+        margin: 0 auto;
+    }
+    
+    #text1 {
+        margin-bottom: 45px;
+    }
+    .right{
+        overflow: visible;
+        text-align: center;
+    }
+    #mobileClear{
+        clear: both;
+    }
+    #main {
+        width: 580px;
+        text-align: center;
+        display: block;
+    }
+    
+    #nav ul li{
+        float: none;
+        padding: 0;
+    }
+    
+    ul li a {
+        width: 170px;
+        margin-bottom: 15px;
+        padding: 0;
+        border: 2px solid white;
+    }
+    
+    #navul{
+        margin: 5px auto;
+    }
+    .drugo {
+        margin-left: 0px;
+    }
+    .prvi {
+        margin-left: 0px;
+    }
+    #podaci {
+        margin: 0 auto;
+    }
+    #first, #second, #third{
+        margin: 20px auto;
+    }
+    #lokacija {
+        margin-left: 5px;
+        font-size: 14px;
+    }
+    #oprema {
+        margin-left: 8px;
+        font-size: 14px;
+    }
+    #zubar {
+        margin-left: 5px;
+        font-size: 14px;
+    }
+    
+    .right ul{
+        display: none;
+        position: unset;
+    }
+    #logo{
+        width: 60px;
+    }
+    #text{
+        width: 70px;
+    }
+
+    #broj{
+        display: none;
+    }
+    
+    #nav{
+        height: auto;
+        position: unset;
+    }
+   
+    #kaver {
+        background: url("../images/ord.jpg") center center / cover;
+        height: 250px;
+    }
+    .ulk ul {
+        float: right;
+    }
+
+
+
+
+
+    #main {
+        width: 430px;
+    }
+
+    #third {
+        margin-right: 86px;
+    }
+
+
+
+
+
+    #pregleds {
+        margin: 20px auto;
+        float: none;
+    }
+    #pcelica {
+        font-size: 18px;
+        margin-left: 10px;
+        width: 290px;
+    }
+    #pregled {
+        width:300px;
+        margin-top: 50px;
+    }
+    #mn1 {
+        font-size: 29px;
+        margin-left: 30px;
+    }
+
+
+
+
+
+    #rads {
+        display: none;
+    }
+    #radsm6 {
+        display: unset;
+        margin: 10px auto;
+    }
+    #radnaslov {
+        font-size: 29px;
+    }
+    #radt{
+        font-size: 18px;
+        width: 420px;
+        margin-right: 10px;
+    }
+
+
+
+
+    #zubis {
+        display: none;
+    }
+    #zubid {
+        width: 420px;
+        margin-top: 10px;
+        float: none;
+    }
+    #zubi {
+        font-size: 20px;
+        width: 420px;
+        margin: 0px;
+        margin-left: 5px;
+        float: none;
+    }
+    .n1 {
+        font-size: 29px;
+    }
+
+    .zubi{
+        width: 100px;
+        margin: 0;
+        padding: 0;
+        margin-left: 45px;
+    }
+    .jedan {
+        margin-left: 13px;
+    }
+    #u12 {
+        margin-right: 5px;
+    }
+    #u13 {
+        margin-right: 13px;
+    }
+    #u21 {
+        margin-right: 12px;
+    }
+    #u22 {
+        margin-right: 33px;
+    }
+    #u32 {
+        margin-right: 5px;
+    }
+    #u33{
+        margin-right: 7px;
+    }
+
+
+
+
+
+
+
+
+    #doktor {
+        width: 410px;
+        margin: 50px auto;
+        float: none;
+    }
+    #doktors {
+        display: none;
+    }
+    #zubar1{
+        width: 400px;
+        margin-right: 0;
+        float: none;
+    }
+    #doktorsm {
+        display: unset;
+        float: left;
+        margin-left: 100px;
+    }
+    #dnm {
+        margin-left: 0px;
+    }
+
+
+
+    .mapouter{
+        float: unset !important;
+        margin: 0 auto;
+        height: 400px;
+        width: 420px;
+        margin-top: 30px;
+    }
+
+    
+    .gmap_canvas {
+        height: 400px;
+        width: 420px;
+    }
+    iframe{
+        width: 420px;
+        height: 400px;
+    }
+    #ikonicem {
+        margin-left: 10px;
+    }
+    #fiksni, #tel1, #radno ,#mail ,#lok{
+        border-bottom: 2px solid #107F93;
+        font-size: 23px;
+        text-align: left;
+    }
+    #fiksni {
+        margin-top: 50px;
+    }
+    .fa-clock {
+        margin-top: 27px;
+    }
+    #lok {
+        margin-top: 15px;
+    }
+    #mail {
+        margin-top: 20px;
+    }
+    #drt {
+        margin-left: 60px;
+    }
+
+
+
+
+
+
+    #kalendar {
+        width: 420px;
+        float: none;
+        margin: 20px auto;
+        text-align: left;
+    }
+    .tacka {
+        width: 48px;
+        height: 48px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+    .dan {
+        margin-left: 18px;
+        width: 40px;
+    }
+    .sivibroj {
+        font-size: 20px;
+        margin-top: 13px;
+    }
+    #mjesec {
+        width: 380px;
+        margin-left: 12px;
+    }
+    #izbor, #izborv {
+        float: none;
+        width: 420px;
+        margin: 20px auto;
+    }
+    .form-style-9 {
+        float: none;
+        width: 360px;
+        margin: 20px auto;
+        margin-bottom: 0px;
+    }
+    #zakaza {
+        margin-left: 5px
+    }
+    .izbord, .izborvd {
+        width: 50px;
+        font-size: 31px;
+        margin-left: 25px;
+        margin-top: 20px;
+        padding-right: 40px;
+        align-content: center;
+    }
+    .respmenu {
+        margin-top: 20px !important;
+        margin-right: 20px !important;
+    }
+    #text1 {
+        width: 110px;
+        margin-bottom: 25px;
+    }
+    #logo1{
+        width: 70px;
+        padding: 5px;
+        margin-left: 20px;
+    }
+    
+}
+
+
+@media screen and (max-width:439px) {
+    #respmenu {
+        display: block;
+        margin-top: 30px;
+        margin-right: 20px;
+    }
+    #respmenu:link, #respmenu:visited, #respmenu:hover{
+        background-color: #107F93;
+    }
+    .prvi{
+        margin: 0;
+    }
+    .ulk ul {
+        position: unset;
+        width: 300px;
+        float: none;
+        margin: 0 auto;
+    }
+    
+    #text1 {
+        margin-bottom: 45px;
+    }
+    .right{
+        overflow: visible;
+        text-align: center;
+    }
+    #mobileClear{
+        clear: both;
+    }
+    #main {
+        width: 580px;
+        text-align: center;
+        display: block;
+    }
+    
+    #nav ul li{
+        float: none;
+        padding: 0;
+    }
+    
+    ul li a {
+        width: 170px;
+        margin-bottom: 15px;
+        padding: 0;
+        border: 2px solid white;
+    }
+    
+    #navul{
+        margin: 5px auto;
+    }
+    .drugo {
+        margin-left: 0px;
+    }
+    .prvi {
+        margin-left: 0px;
+    }
+    #podaci {
+        margin: 0 auto;
+    }
+    #first, #second, #third{
+        margin: 20px auto;
+    }
+    #lokacija {
+        margin-left: 5px;
+        font-size: 14px;
+    }
+    #oprema {
+        margin-left: 8px;
+        font-size: 14px;
+    }
+    #zubar {
+        margin-left: 5px;
+        font-size: 14px;
+    }
+    
+    .right ul{
+        display: none;
+        position: unset;
+    }
+    #logo{
+        width: 60px;
+    }
+    #text{
+        width: 70px;
+    }
+
+    #broj{
+        display: none;
+    }
+    
+    #nav{
+        height: auto;
+        position: unset;
+    }
+   
+    #kaver {
+        background: url("../images/ord.jpg") center center / cover;
+        height: 200px;
+    }
+    .ulk ul {
+        float: right;
+    }
+
+
+
+    #main {
+        width: 310px;
+    }
+    #third {
+        margin-right: 23px;
+    }
+
+
+
+    #pregleds {
+        margin: 20px auto;
+        float: none;
+        width: 300px;
+    }
+    #pcelica {
+        font-size: 16px;
+        margin-left: 10px;
+        width: 300px;
+    }
+    #pregled {
+        width:300px;
+        margin-top: 50px;
+    }
+    #mn1 {
+        font-size: 29px;
+        margin-left: 15px;
+    }
+
+
+
+    #rads {
+        display: none;
+    }
+    #radsm6 {
+        display: unset;
+        margin: 20px auto;
+        float: none;
+        width: 300px;
+    }
+    #radnaslov {
+        font-size: 29px;
+    }
+    #radt{
+        font-size: 16px;
+        width: 290px;
+        margin-right: 10px;
+    }
+
+
+
+
+    #zubis {
+        display: none;
+    }
+    #zubid {
+        width: 300px;
+        margin-top: 10px;
+        float: none;
+    }
+    #zubi {
+        font-size: 16px;
+        width: 300px;
+        margin: 0px;
+        margin-left: 5px;
+        float: none;
+    }
+    .n1 {
+        font-size: 29px;
+    }
+
+    .zubi{
+        width: 100px;
+        margin: 0;
+        padding: 0;
+        margin-left: 45px;
+    }
+    .jedan, .dva, .tri {
+        width: 90px;
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    #u12 {
+        margin-right: 5px;
+    }
+    #u13 {
+        margin-right: 12px;
+    }
+    #u22 {
+        margin-right: 18px;
+    }
+    #u23 {
+        margin-left: 9px;
+    }
+    #u21 {
+        margin-right: 5px;
+    }
+    #u22 {
+        margin-right: 25px;
+    }
+    #u31 {
+        margin-left: 5px;
+    }
+    .tri{
+        margin-left: 10px;
+    }
+
+
+
+    #doktor {
+        width: 300px;
+        margin: 50px auto;
+        float: none;
+    }
+    #doktors {
+        display: none;
+    }
+    #zubar1{
+        width: 300px;
+        margin-right: 0;
+        float: none;
+    }
+    #doktorsm {
+        display: unset;
+        float: left;
+        margin-left: 60px;
+    }
+    #dnm {
+        margin-left: 0px;
+    }
+
+
+
+
+
+
+    .mapouter{
+        float: unset !important;
+        margin: 0 auto;
+        height: 300px;
+        width: 300px;
+        margin-top: 30px;
+    }
+
+    
+    .gmap_canvas {
+        height: 300px;
+        width: 300px;
+    }
+    iframe{
+        width: 300px;
+        height: 300px;
+    }
+
+
+
+
+    #ikonicem {
+        margin-left: 5px;
+    }
+    #fiksni, #tel1, #radno ,#mail ,#lok{
+        border-bottom: 2px solid #107F93;
+        font-size: 20px;
+        text-align: left;
+        width: 230px;
+    }
+    #fiksni {
+        margin-top: 50px;
+    }
+    .fa-clock {
+        margin-top: 15px;
+    }
+    #lok {
+        margin-top: 15px;
+    }
+    #mail {
+        margin-top: 20px;
+    }
+    #drt {
+        margin-left: 20px;
+        margin-top: 15px;
+        font-size: 18px;
+    }
+    .drmreze {
+        margin: 0;
+       
+    }
+    .drf{
+        margin-right: 70px;
+    }
+
+
+
+
+
+
+    #kalendar {
+        width: 300px;
+        float: none;
+        margin: 20px auto;
+        text-align: left;
+    }
+    .tacka {
+        width: 33px;
+        height: 33px;
+        margin-left: 3px;
+        margin-top: 5px;
+    }
+    .dan {
+        margin-left: 10px;
+        width: 31px;
+        font-size: 22px;
+    }
+    .sivibroj {
+        font-size: 17px;
+        margin-top: 7px;
+    }
+    #mjesec {
+        width: 270px;
+        margin-left: 12px;
+        font-size: 25px;
+    }
+    #izbor, #izborv {
+        float: none;
+        width: 300px;
+        margin: 20px auto;
+    }
+    #izbor {
+        height: 340px;
+    }
+    #izborv {
+        height: 200px;
+    }
+    .izbord, .izborvd {
+        width: 40px;
+        font-size: 23px;
+        margin-left: 7px;
+        margin-top: 10px;
+        padding-right: 35px;
+        align-content: center;
+    }
+    .form-style-9 {
+        float: none;
+        width: 240px;
+        margin: 20px auto;
+        margin-bottom: 0px;
+    }
+    #zakaza {
+        margin-left: 0;
+        margin-right: 0px
+    }
+
+
+
+
+
+    .respmenu {
+        margin-top: 15px !important;
+        margin-right: 20px !important;
+    }
+
+
+
+
+
+
+
+    #text1 {
+        width: 110px;
+        margin-bottom: 25px;
+    }
+    #logo1{
+        width: 70px;
+        padding: 5px;
+        margin-left: 20px;
+    }
+}
